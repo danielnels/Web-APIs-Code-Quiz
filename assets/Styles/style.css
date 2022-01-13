@@ -15,20 +15,20 @@
   display: flex;
   justify-content: center;
   align-items: center; 
-  font-size: 25px;
+  font-size: 30px;
 }
 
 #answer-buttons {
   display:flex;
   justify-content: center;
   align-items: stretch;
-  font-size: 25px;
+  font-size: 30px;
   flex-wrap: wrap;
   flex-direction: column;
 
 }
 button.choice:hover{
-font-size: 25px;
+font-size: 40px;
 color: blanchedalmond;
 background-color: black;
 }
@@ -43,7 +43,7 @@ background-color: black;
 
 .hide {
   display: none;
-  font-size: 25px;
+  font-size: 30px;
 }
 
 .btn {
@@ -53,12 +53,12 @@ background-color: black;
   border: none;
   padding: 10px 24px;
   width: 10rem;
-  font-size: 20px;
+  font-size: 30px;
   margin-bottom: 1rem;
 }
 .high-scores{
   color: chartreuse;
-  font-size: 20px;
+  font-size: 30px;
   
 }
 .btn:hover {
@@ -69,8 +69,8 @@ background-color: black;
   display:flex;
   justify-content: center;
   align-items: center;
-  font-size: 25px;
+  font-size: 40px;
 }
 #highscores {
-  font-size: 25px;
+  font-size: 40px;
 }
