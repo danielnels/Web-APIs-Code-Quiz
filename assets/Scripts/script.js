@@ -13,7 +13,7 @@ var currentQuestionIndex = 0;
 var initialsEl = document.getElementById("user-initials");
 var submitBtn = document.getElementById("submit");
 
-//Start quiz, hide pg
+//Start quiz & hide page
 
 startButton.onclick = startGame;
 
@@ -26,7 +26,7 @@ function startGame() {
     showQuestion();
 }
 
-//question appears - multiple choice, 4 answers
+//question appears with 4 multiple choice answers
 function showQuestion() {
     var currentQuestion = questions[currentQuestionIndex];
     var questionHeader = document.getElementById('question-header');
@@ -49,7 +49,7 @@ function showQuestion() {
 
 
 //after question is answered, another question appears 4x, "Correct!" or "Wrong!" appears
-//if question is answered incorrectly, 10 secs are subtracted from clock
+//if question is answered incorrectly, 10 secs is subtracted from clock
 function selectAnswer() {
     
     if (this.value !== questions[currentQuestionIndex].answer) {
@@ -131,7 +131,7 @@ var questions = [
 ]
 
 
-//at end of game, user can save their initials & score - submit button
+//at end of game, user can save their initials & score via submit button
 
 function saveHighScores() {
     var initials = initialsEl.value.trim();
