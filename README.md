@@ -25,4 +25,4 @@ THEN I can save my initials and my score
 
 ## Application image:
 
-![Screen Shot of Application](https://user-images.githubusercontent.com/94213022/149277566-c0a7fce5-bf3a-48b7-99f1-a0151629c952.png)
+
