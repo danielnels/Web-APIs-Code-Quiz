@@ -24,6 +24,6 @@ WHEN the game is over
 THEN I can save my initials and my score
 
 ## Application image:
-C:\Users\Dan Nelson\Web-APIs-Code-Quiz\Screen Shot of Application.png
+https://github.com/danielnels/Web-APIs-Code-Quiz/blob/main/Screen%20Shot%20of%20Application.png
 
 
